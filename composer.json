@@ -1,0 +1,27 @@
+{
+    "name": "mattwellss/aura-doctrine-bundle",
+    "description": "Integration of Doctrine ORM with Aura.di",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "~2.0",
+        "aura/di": "~3.0",
+        "symfony/yaml": "~2.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "mockery/mockery": "~0.9"
+    },
+    "authors": [
+        {
+            "name": "Matthew Wells",
+            "email": "mattwellss@github.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mattwellss\\Doctrine_Bundle\\Config\\": "config/"
+        }
+    }
+}
